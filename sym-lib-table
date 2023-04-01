@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Raspberry Pi Pico")(type "KiCad")(uri "${KIPRJMOD}/project_library/symbols/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
+  (lib (name "JST SH")(type "KiCad")(uri "${KIPRJMOD}/project_library/symbols/BM04B-SRSS-TBT_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "TMC Silent Step Stick")(type "KiCad")(uri "${KIPRJMOD}/project_library/symbols/TMC2208_SILENTSTEPSTICK.kicad_sym")(options "")(descr ""))
+)
