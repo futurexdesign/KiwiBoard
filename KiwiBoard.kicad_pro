@@ -441,7 +441,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "KiwiBoard.step",
+      "step": "../../../../Desktop/KiwiBoard.step",
       "vrml": "KiwiBoard.wrl"
     },
     "page_layout_descr_file": ""
