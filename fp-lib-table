@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Raspberry Pi Pico")(type "KiCad")(uri "${KIPRJMOD}/project_library/footprints/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "Project Footprints")(type "KiCad")(uri "${KIPRJMOD}/project_library/footprints/Project_Footprints.pretty")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/project_library/footprints/easyeda2kicad.pretty")(options "")(descr ""))
 )
