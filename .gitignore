@@ -16,3 +16,5 @@ fp-info-cache# Netlist files (exported from Eeschema)
 *.xlsx
 /Kiwiboard-Backups/*
 *.zip
+/exports/*
+/gerbers/*
