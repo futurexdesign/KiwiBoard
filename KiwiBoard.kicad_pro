@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
+          "border_hatch_pitch": 0.508,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
           "fill_mode": 0,
@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -214,6 +214,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.25,
         0.381
@@ -576,7 +577,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../../Desktop/KiwiBoard.step",
+      "step": "../../KiwiBoard.step",
       "svg": "",
       "vrml": "KiwiBoard.wrl"
     },
@@ -677,6 +678,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -696,8 +705,12 @@
         "uuid": "9e2b85e7-5337-4458-814c-b9b7284580a9"
       }
     ],
-    "used_designators": "L1,USB1,SW1,JP1,R4-15,D2-5,#PWR19,#PWR21,#PWR25,#PWR27-28,#PWR34-65,C5-31,J5,J8,Y1,U3-8",
-    "variants": []
+    "used_designators": "USB1,L1,C5-36,SW1-3,U1,U3-8,D2-7,#PWR10-19,#PWR21,#PWR25,#PWR27-28,#PWR34-65,Y1-2,Q3-4,JP1,R2-22,J5,J8",
+    "variants": [
+      {
+        "name": "5160"
+      }
+    ]
   },
   "sheets": [
     [

@@ -10744,7 +10744,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 134.62) (xy 345.44 139.065)
+			(xy 345.44 135.89) (xy 345.44 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11341,16 +11341,6 @@
 			(type default)
 		)
 		(uuid "48f0d066-aef7-4811-b80f-532b41bc3b95")
-	)
-	(wire
-		(pts
-			(xy 356.87 134.62) (xy 356.87 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4982a26e-a4a6-4b35-bdac-e9f474e89d78")
 	)
 	(wire
 		(pts
@@ -12394,16 +12384,6 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 135.89) (xy 397.51 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8eca264f-5313-433d-809f-5ff20e801026")
-	)
-	(wire
-		(pts
 			(xy 408.94 51.435) (xy 411.48 51.435)
 		)
 		(stroke
@@ -12934,7 +12914,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 134.62) (xy 345.44 134.62)
+			(xy 345.44 135.89) (xy 397.51 135.89)
 		)
 		(stroke
 			(width 0)
@@ -21593,95 +21573,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 353.06 134.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99effc20-9ddc-40c8-9a60-ff47842622e2")
-		(property "Reference" "R18"
-			(at 353.06 129.3622 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 353.06 131.6736 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 353.06 132.842 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 353.06 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 353.06 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C11702"
-			(at 353.06 129.3622 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b7475de-5aca-436a-8b06-687074f6d7b7")
-		)
-		(pin "2"
-			(uuid "4919be1f-4849-4819-873a-fd0492ea221f")
-		)
-		(instances
-			(project "KiwiBoard"
-				(path "/9e2b85e7-5337-4458-814c-b9b7284580a9"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 386.08 36.195 0)
 		(unit 1)
@@ -21871,82 +21762,6 @@
 			(project "KiwiBoard"
 				(path "/9e2b85e7-5337-4458-814c-b9b7284580a9"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 345.44 139.065 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a113b8a1-2703-4a23-ad55-2c5eff793ca9")
-		(property "Reference" "#PWR015"
-			(at 345.44 145.415 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 341.63 140.335 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 139.065 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 139.065 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 345.44 139.065 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "022f7bc9-9724-438d-a4bc-c753a1917b06")
-		)
-		(instances
-			(project "KiwiBoard"
-				(path "/9e2b85e7-5337-4458-814c-b9b7284580a9"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -23626,6 +23441,82 @@
 			(project "KiwiBoard"
 				(path "/9e2b85e7-5337-4458-814c-b9b7284580a9"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 345.44 139.7 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c98c3dd4-0df6-48c3-a75a-06f594c6e7be")
+		(property "Reference" "#PWR015"
+			(at 345.44 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 345.059 144.0942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 345.44 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6fab83b-f4bc-4fa3-a3be-09bfccb3ae96")
+		)
+		(instances
+			(project "KiwiBoard"
+				(path "/9e2b85e7-5337-4458-814c-b9b7284580a9"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
